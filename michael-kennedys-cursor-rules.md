@@ -1,4 +1,4 @@
-# Michael Kennedy's Cursor Rules
+<!-- # Michael Kennedy's Cursor Rules -->
 
 Last Updated: October 16, 2025
 

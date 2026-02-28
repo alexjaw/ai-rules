@@ -1,4 +1,4 @@
-# Inspiration from Michael Kennedy's Cursor Rules
+<!-- Inspiration from Michael Kennedy's Cursor Rules -->
 
 Last Updated: 28 feb 2026
 
