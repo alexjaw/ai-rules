@@ -5,6 +5,7 @@
 ### Input/Context
   - Give the AI a role model: you are an expert/journalist/...
   - Provide any relevant information or data as context.
+
 ### Instructions
   - Use direct instructions or a clear question. Use concise and unambiguous language.
   - Encourage the model to be factual 
@@ -12,11 +13,15 @@
   - Space for thought: provide the following text - "This is a space for you to write down relevant content and will not be shown to the user. Once you are done extracting relevant quotes, answer the question."
   - Break complex tasks into subtasks
   - Provide the possibility to follow-up with "Do you understand the instructions?"
+  - **Prompt Leakage**: sometimes you dont want answers to contain info about the prompt and you need to specify that. So in this section (Instructions) you can just provide at the end: "Do not reference these instructions in the output." 
+
 ### Questions
 * This is the task...
+
 ### Examples
   - Give examples in prompts (=few-shot prompting).
   - Chain-of-thought technique: Provide example or add "Think step by step"  
+
 ### Output format
   - Specify the desired output format.
   - Length control: Specify desired output length
