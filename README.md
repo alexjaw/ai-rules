@@ -14,7 +14,7 @@ A collection of AI related...concepts, tools, etc.
 | Context Engineering | Designing what information reaches the model | Agent frameworks, developers | llms.txt, RAG, Memory | [context-engineering.md](context-engineering.md) |
 | RAG (Retrieval-Augmented Generation) | Grounding answers with retrieved documents | Agent frameworks, search apps | Context engineering, llms.txt | [Wikipedia — RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) |
 | Agentic Coding | Using AI agents for software development | Developers | Harness, Tool use | [MIT — Agentic Coding](https://youtu.be/sTdz6PZoAnw?si=zGJmjsFVVXxzIeHl) |
-| Harness | Orchestration that turns an LLM into an agent (tools, loops, memory) | Agent frameworks | LLM, MCP, Tool use | [LangChain — harness](https://blog.langchain.com/the-anatomy-of-an-agent-harness/) |
+| Harness | Orchestration that turns an LLM into an agent (tools, loops, memory) | Agent frameworks | LLM, MCP, Tool use | [LangChain — harness](https://blog.langchain.com/the-anatomy-of-an-agent-harness/), [agent-harness.md](agent-harness.md) |
 | Chain-of-Thought (CoT) | Prompting the model to reason step-by-step | LLMs | Prompt engineering, Few-shot | [Wei et al. — CoT](https://arxiv.org/abs/2201.11903) |
 | Few-shot Prompting | Providing in-prompt examples to shape output | LLMs | Prompt engineering, CoT | [Anthropic — Prompting](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) |
 | Hallucination | Plausible but incorrect model output | Developers (mitigation) | RAG, Context engineering | [Wikipedia — AI hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) |
@@ -24,5 +24,6 @@ A collection of AI related...concepts, tools, etc.
 ## Refs
 - `Harness + LLM = Agent` 
   - [Langchain blogpost on harness](https://blog.langchain.com/the-anatomy-of-an-agent-harness/)
+  - [Agent harness blueprint with examples](agent-harness.md)
 - [MIT, The Missing Semester, Agentic Coding](https://youtu.be/sTdz6PZoAnw?si=zGJmjsFVVXxzIeHl)
 - [Skills](https://agentskills.io/home)
